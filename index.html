@@ -292,17 +292,33 @@
                             </svg></a></li> 
                 </ul>  
              </div>
+             <div class="form-footer">
+                 <form action="#">
+                     <p class="footer-call">подпишитесь на рассылку</p>
+                     <input  name="user-e-mail" type="email" required class="input-footer" placeholder="E-mail">
+                     <button type="submit" class="footer-button">
+                         <div class="footer-button-inside">
+                            Подписаться <svg class="footer-button-icon">
+                                <use href="./images/sprite.svg#icon-send"></use>
+                                </svg>
+                         </div>
+                        </button>
+                 </form>
+             </div>
         </div>
     </footer>
  
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <div class="modal-close">
-        <a data-modal-close class="modal-cross-link" href="#">
-              <svg class="modal-icon">
+            <button data-modal-close class="modal-cross-link"> 
+                <svg class="modal-icon">
               <use href="./images/sprite.svg#icon-cross"></use>
               </svg>
-        </a>
+             </button>
+        
+             
+        
        </div> 
    
     </div>
