@@ -220,7 +220,7 @@ transition-property: color;
 
 .visually-hidden {
   position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
   padding: 0 !important;
   border: 0 !important;
@@ -248,7 +248,7 @@ transition-property: color;
         rgba(47, 48, 58, 0.4)
         ), url("../images/hero-bg.jpg");
     background-repeat: no-repeat;
-    background-position: cneter;
+    background-position: center;
     background-size: cover;
    
    
@@ -416,7 +416,7 @@ position: absolute;
     
 font-weight: bold;
 font-size: 14px;
-line-height: 1,142;
+line-height: 1.142;
 text-align: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -695,7 +695,7 @@ margin-bottom: 20px;
     border-radius: 4px;
     background-color: transparent;
     font-size: 16px;
-line-height: 1,25;
+line-height: 1.25;
 /* identical to box height, or 125% */
 letter-spacing: 0.03em;
 
@@ -718,7 +718,7 @@ border-radius: 4px;
 padding: 10px 28px;
 font-weight: bold;
 font-size: 16px;
-line-height: 1,875;
+line-height: 1.875;
 /* identical to box height, or 187% */
 /* text-align: center; */
 letter-spacing: 0.06em;
@@ -822,7 +822,7 @@ fill: var(--accent-color);
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 1,15;
+    line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--subtitle-font-color);
@@ -836,7 +836,7 @@ fill: var(--accent-color);
     display: block;
     width: 100%;
 height: 40px;
-border: 1px solid --form-border;
+border: 1px solid var(--form-border);
 box-sizing: border-box;
 border: 1px;
 border-style: solid;
@@ -881,7 +881,7 @@ padding-top: 12px;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
-line-height: 1,166;
+line-height: 1.166;
 /* identical to box height */
 
 letter-spacing: 0.01em;
