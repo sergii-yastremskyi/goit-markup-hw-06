@@ -763,12 +763,7 @@ border-style: none;
      z-index: 2;
 }
     
-.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    
-    
-}
+
 .modal {
     position: absolute;
     top: 50%;
@@ -784,6 +779,11 @@ border-style: none;
       transition-property: opacity;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.is-hidden {
+    opacity: 0;
+    pointer-events: none; 
 }
 .modal-close {
  position: absolute;
@@ -843,7 +843,7 @@ border-style: solid;
 border-color: var(--form-border);
 border-radius: 4px;
 outline: none;
-margin-bottom: 10px;
+
 padding-left: 42px;
 padding-top: 12px;
 
@@ -888,7 +888,8 @@ letter-spacing: 0.01em;
 
 color: var(--font-color);
 
-padding-bottom: 12px;
+
+margin-bottom: 10px;
 }
 
 .modal-form-input-wraper{
